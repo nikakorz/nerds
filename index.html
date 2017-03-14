@@ -4,13 +4,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>HTML Academy: Нёрдс</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="header">
   <div class="container">
-
-    <div class="header-menu">
-      <img src="" alt="" class="header-logo">
+    <div class="header-menu clearfix">
+      <img src="img/logo.png" alt="" class="header-logo">
       <nav class="header-nav">
         <ul>
           <li>Студия</li>
@@ -25,7 +27,6 @@
     </div>
 
     <div class="header-slider">
-      <div class="container">
         <div class="header-slider-item">
           <div class="header-slider-item-text">
             <h2>Долго, дорого, скрупулезно.</h2>
@@ -49,7 +50,6 @@
             <a href="#">Узнать больше</a>
           </div>
         </div>
-      </div>
     </div>
 
   </div>
@@ -58,19 +58,19 @@
 <main class="container">
   <section class="services">
     <div class="websites">
-      <img src="" alt="">
+      <img src="img/websites.jpg" alt="">
       <h3 class="services-heading">Веб-сайты</h3>
       <p class="services-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
       <a href="#" class="btn">Заказать</a>
     </div>
     <div class="apps" >
-      <img src="" alt="">
+      <img src="img/apps.jpg" alt="">
       <h3 class="services-heading">Приложения</h3>
       <p class="services-text">Покорите топ-10 приложений в AppStrore и Google Play</p>
       <a href="#" class="btn">Заказать</a>
     </div>
     <div class="presentation">
-      <img src="" alt="">
+      <img src="img/presentation.jpg" alt="">
       <h3 class="services-heading">Презентации</h3>
       <p class="services-text">Вы даже не подозреваете, насколько вы изумительны!</p>
       <a href="#" class="btn">Заказать</a>
@@ -88,8 +88,7 @@
       </ul>
     </div>
     <div class="studio-right">
-      <img src="" alt="" class="about-logo">
-      <span>Since 2004</span>
+      <img src="img/logo2.png" alt="" class="about-logo">
       <span>Как мы работаем:</span>
       <ul>
         <li>С самоотдачей 146%</li>
@@ -99,21 +98,20 @@
     </div>
   </section>
   <section class="studio-example">
-    <img scr="" alt="">
-    <img scr="" alt="">
-    <img scr="" alt="">
-  </section>
-  <section class="map">
-    <iframe></iframe>
-    <div class="map-text">
-      <h4>NЁRDS DESIGN STUDIO</h4>
-      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <span>тел. +7 (812) 275-75-75</span>
-      <a href="#">Напишите нам</a>
-    </div>
+    <img scr="img/studio1.png" alt="">
+    <img scr="img/studio2.png" alt="">
+    <img scr="img/studio3.png" alt="">
   </section>
 </main>
-<footer>
+<section class="map">
+  <div class="map-text container">
+    <h4>NЁRDS DESIGN STUDIO</h4>
+    <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+    <span>тел. +7 (812) 275-75-75</span>
+    <a href="#">Напишите нам</a>
+  </div>
+</section>
+<footer class="container">
 <div class="social">
   <a href="#">Вконтакте</a>
   <a href="#">Фейсбук</a>
