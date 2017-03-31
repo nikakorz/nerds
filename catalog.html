@@ -5,11 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>HTML Academy: Нёрдс</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="header">
+<header class="header header-catalog">
   <div class="container">
     <div class="header-menu clearfix">
       <img src="img/logo.png" alt="" class="header-logo">
@@ -26,12 +27,12 @@
       </div>
     </div>
 
-    <h1>Добро пожаловать в магазин готовых макетов</h1>
+    <h1>Добро пожаловать в магазин<br> готовых макетов</h1>
 
   </div>
 </header>
 
-<div class="container">
+<div class="container clearfix">
   <aside>
     <form>
       <div class="">
@@ -80,29 +81,117 @@
     </form>
   </aside>
   <main>
-    <div class=""></div>
-    <div class="goods">
+    <div class="main-nav">
+      <span>Сортировать</span>
+      <a href="#">По цене:</a>
+      <a href="#">По типу:</a>
+      <a href="#">По функционалу:</a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </div>
+    <div class="goods clearfix">
       <div class="product">
+        <div class="product-header"></div>
+        <div class="product-body">
+          <img src="img/good1.jpg" alt="">
+        </div>
+        <div class="product-popup">
+          <h4>AVIATOR</h4>
+          <span>Одностраничный макет
+с авторским дизайном</span>
+          <a class="btn" href="#">8000 P.</a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header"></div>
+        <div class="product-body">
+          <img src="img/good2.jpg" alt="">
+        </div>
+        <div class="product-popup">
+          <h4>AVIATOR</h4>
+          <span>Одностраничный макет
+с авторским дизайном</span>
+          <a class="btn" href="#">8000 P.</a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header"></div>
+        <div class="product-body">
+          <img src="img/good3.jpg" alt="">
+        </div>
+        <div class="product-popup">
+          <h4>AVIATOR</h4>
+          <span>Одностраничный макет
+с авторским дизайном</span>
+          <a class="btn" href="#">8000 P.</a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header"></div>
+        <div class="product-body">
+          <img src="img/good4.jpg" alt="">
+        </div>
+        <div class="product-popup">
+          <h4>AVIATOR</h4>
+          <span>Одностраничный макет
+с авторским дизайном</span>
+          <a class="btn" href="#">8000 P.</a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header"></div>
+        <div class="product-body">
+          <img src="img/good5.jpg" alt="">
+        </div>
+        <div class="product-popup">
+          <h4>AVIATOR</h4>
+          <span>Одностраничный макет
+с авторским дизайном</span>
+          <a class="btn" href="#">8000 P.</a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header"></div>
+        <div class="product-body">
+          <img src="img/good6.jpg" alt="">
+        </div>
+        <div class="product-popup">
+          <h4>AVIATOR</h4>
+          <span>Одностраничный макет
+с авторским дизайном</span>
+          <a class="btn" href="#">8000 P.</a>
+        </div>
       </div>
     </div>
+
+    <style>
+      .product-popup {
+        opacity :0;
+      }
+      .product:hover .product-popup {
+        opacity: 1;
+      }
+    </style>
 
   </main>
 </div>
 
 
-<section class="map container">
-  <div class="map-text">
-    <h4>NЁRDS DESIGN STUDIO</h4>
-    <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-    <span>тел. +7 (812) 275-75-75</span>
-    <a href="#">Напишите нам</a>
+<section class="map">
+  <div class="container">
+    <div class="map-text">
+      <h4>NЁRDS DESIGN STUDIO</h4>
+      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p>тел. +7 (812) 275-75-75</p>
+      <a class="btn" href="#">Напишите нам</a>
+    </div>
   </div>
 </section>
-<footer class="container">
-  <div class="social">
-    <a href="#">Вконтакте</a>
-    <a href="#">Фейсбук</a>
-    <a href="#">Инстаграм</a>
+<footer class="container clearfix">
+  <div class="footer-social">
+    <a class="social-btn" href="#">Вконтакте</a>
+    <a class="social-btn" href="#">Фейсбук</a>
+    <a class="social-btn" href="#">Инстаграм</a>
   </div>
   <div class="footer-text">
     <h3>Давайте дружить, это выгодно!</h3>
