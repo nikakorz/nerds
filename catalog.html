@@ -36,43 +36,43 @@
   <aside>
     <form>
       <div class="">
-        <span>Стоимость:</span>
+        <span class="form-header">Стоимость:</span>
 
       </div>
       <div class="adaptive">
-        <span>Сетка:</span>
-        <div>
-          <input type="radio" id="test1" checked="checked">
+        <span class="form-header">Сетка:</span>
+        <div class="form-group">
+          <input type="radio" name="grid" id="test1" checked="checked">
           <label for="test1">Адаптивная</label>
         </div>
-        <div>
-          <input type="radio" id="test2">
+        <div class="form-group">
+          <input type="radio" name="grid" id="test2">
           <label for="test2">Фиксированная</label>
         </div>
-        <div>
-          <input type="radio" id="test3">
+        <div class="form-group">
+          <input type="radio" name="grid" id="test3">
           <label for="test3">Резиновая</label>
         </div>
       </div>
       <div class="features">
-        <span></span>
-        <div>
+        <span class="form-header">Особенности</span>
+        <div class="form-group">
           <input type="checkbox" id="test4" checked="checked">
           <label for="test4">Слайдер</label>
         </div>
-        <div>
+        <div class="form-group">
           <input type="checkbox" id="test5">
           <label for="test5">Блок преимуществ</label>
         </div>
-        <div>
+        <div class="form-group">
           <input type="checkbox" id="test6" checked="checked">
           <label for="test6">Новости</label>
         </div>
-        <div>
+        <div class="form-group">
           <input type="checkbox" id="test7">
           <label for="test7">Галерея</label>
         </div>
-        <div>
+        <div class="form-group">
           <input type="checkbox" id="test8">
           <label for="test8">Корзина</label>
         </div>
@@ -91,31 +91,37 @@
     </div>
     <div class="goods clearfix">
       <div class="product">
-        <div class="product-header"></div>
+        <div class="product-header">
+          <span></span><span></span><span></span>
+        </div>
         <div class="product-body">
           <img src="img/good1.jpg" alt="">
         </div>
         <div class="product-popup">
           <h4>AVIATOR</h4>
-          <span>Одностраничный макет
-с авторским дизайном</span>
+          <span>Интернет-магазин
+с личным кабинетом</span>
           <a class="btn" href="#">8000 P.</a>
         </div>
       </div>
       <div class="product">
-        <div class="product-header"></div>
+        <div class="product-header">
+          <span></span><span></span><span></span>
+        </div>
         <div class="product-body">
           <img src="img/good2.jpg" alt="">
         </div>
         <div class="product-popup">
           <h4>AVIATOR</h4>
-          <span>Одностраничный макет
-с авторским дизайном</span>
+          <span>Интернет-магазин
+с личным кабинетом</span>
           <a class="btn" href="#">8000 P.</a>
         </div>
       </div>
       <div class="product">
-        <div class="product-header"></div>
+        <div class="product-header">
+           <span></span><span></span><span></span>
+         </div>
         <div class="product-body">
           <img src="img/good3.jpg" alt="">
         </div>
@@ -127,19 +133,23 @@
         </div>
       </div>
       <div class="product">
-        <div class="product-header"></div>
+        <div class="product-header">
+           <span></span><span></span><span></span>
+         </div>
         <div class="product-body">
           <img src="img/good4.jpg" alt="">
         </div>
         <div class="product-popup">
           <h4>AVIATOR</h4>
-          <span>Одностраничный макет
-с авторским дизайном</span>
+          <span>Интернет-магазин
+с личным кабинетом</span>
           <a class="btn" href="#">8000 P.</a>
         </div>
       </div>
       <div class="product">
-        <div class="product-header"></div>
+        <div class="product-header">
+           <span></span><span></span><span></span>
+         </div>
         <div class="product-body">
           <img src="img/good5.jpg" alt="">
         </div>
@@ -151,7 +161,9 @@
         </div>
       </div>
       <div class="product">
-        <div class="product-header"></div>
+        <div class="product-header">
+           <span></span><span></span><span></span>
+         </div>
         <div class="product-body">
           <img src="img/good6.jpg" alt="">
         </div>
@@ -163,16 +175,6 @@
         </div>
       </div>
     </div>
-
-    <style>
-      .product-popup {
-        opacity :0;
-      }
-      .product:hover .product-popup {
-        opacity: 1;
-      }
-    </style>
-
   </main>
 </div>
 
@@ -198,5 +200,6 @@
     <p>Скидка 10% для друзей из социальных сетей.</p>
   </div>
 </footer>
+<script> </script> <!-- https://bugs.chromium.org/p/chromium/issues/detail?id=332189 -->
 </body>
 </html>
